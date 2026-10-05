@@ -79,3 +79,4 @@ my_car3 = SportCar(4, "red", "Mercedes")
 vehicles = [my_car1, my_car2, my_car3]
 for v in vehicles:
     v.drive_to("Кара-Балта")
+

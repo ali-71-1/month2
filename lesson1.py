@@ -34,3 +34,4 @@ my_car1.change_color("silver")
 print(my_car1.color, my_car1.marka)
 # вызов метода: объект.my_method(аргументы)
 my_car2.drive_to("Кант")
+
