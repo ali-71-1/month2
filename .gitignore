@@ -2,3 +2,10 @@
 .venv
 venv
 __pycache__
+.env
+
+*.db
+*.sqlite
+*.sqlite3
+.database.py
+.library.db
