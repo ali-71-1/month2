@@ -59,6 +59,7 @@ class Cat(Animal):
     def voce(self):
         print("May MAy")
 
+
 gufi = Dog()
 gufi.move()
 gufi.voce()
