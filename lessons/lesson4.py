@@ -16,7 +16,7 @@ class User:
         return f"{self.first_name} {self.last_name}"
 
     # @staticmethod — метод без self, не зависит ни от объекта, ни от класса
-    @staticmethodpy
+    @staticmethod
     def add(a, b):
         return a + b
 
