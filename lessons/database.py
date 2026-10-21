@@ -6,6 +6,7 @@ import sqlite3
 def create_tables(conn):
     conn.execute("""
     CREATE TABLE IF NOT EXISTS students (
+        ID INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT,
         age INTEGER,
         city TEXT

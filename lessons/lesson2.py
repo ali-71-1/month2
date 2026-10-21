@@ -76,7 +76,7 @@ my_car3 = SportCar(4, "red", "Mercedes")
 # В списке объекты разных классов. Один и тот же вызов drive_to ниже
 # выбирает реализацию по типу объекта: у ElectricCar метод переопределен,
 # а Car и SportCar используют унаследованный метод Car. Это полиморфизм.
-mashina = [my_car1, my_car2, my_car3]
-for m in mashina:
-    m.drive_to("Бишкек")
+vehicles = [my_car1, my_car2, my_car3]
+for v in vehicles:
+    v.drive_to("Бишкек")
 
