@@ -201,17 +201,22 @@ class Math:
         return cls.name_class
     @property
     def full_name(self):
-        return f"{self.last_name} {self.first_name}"
+        return f"{self.last_name} {self.last_name}"
     @full_name.setter
     def full_name(self, value):
         print(value)
+
+
 ardager = Math("ali", "aliev")
+# print(ardager.first_name)
+# ardager.first_name = "alishka"
 # print(ardager.first_name)
 # print(ardager.last_name)
 # ardager.last_name = "Alishka"
 # print(ardager.last_name)
 print(ardager.full_name)
-ardager.full_name = "Muhammad Mamiev"
+ardager.full_name = "Muhammad  Mamiev"
+print(ardager.full_name)
 # print(ardager.full_name)
 # #
 # print(Math.add_two_num(15, 12))
